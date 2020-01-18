@@ -28,8 +28,8 @@
  - git clone [github 저장소 url] : github 저장소로부터 데이터를 복사 (동시에 origin 리모트 저장소를 생성)
 - [ ] git add [파일이름] [옵션] : 파일을 staging area(준비 영역)에 추가
   - 옵션: -A, --all 변경된 모든 파일 추가
-- [ ] git commit [옵션] : stage에 추가된 파일 목록을 커밋함.
-  -옵션:
+- [ ] git commit [옵션] : stage에 추가된 파일 목록을 커밋함
+  - 옵션:
    - -m [메세지] : 커밋 메세지와 함께 커밋
    - -a : 자동으로 add를 진행한 후 커밋
    - -v : 커밋 메세지에 diff의 내용 포함
