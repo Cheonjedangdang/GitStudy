@@ -16,3 +16,21 @@
   - Webpack이 실행된다면 Dependencies Graph를 통해 필요한 형태의 하나 또는 여러개의 Bundle로 생성합니다.
   - 요약 : 의존성 있는 모듈을 파일 하나 or 여러개로 묶음
 
+##Git 명령어 기능 및 사용법
+- [ ] git config [옵션]
+  - 옵션:
+    - user.name "유저 이름" : 유저 이름 설정
+    - user.email [메일주소] : 유저 메일주소 설정
+    - -- global : 전역 설정
+    - -- list : 설정 목록 확인
+- [ ] git 저장소 생성하기
+ - git init : 현재 디렉토리를 새ㄹ로운 Git 저장소로 설정
+ - git clone [github 저장소 url] : github 저장소로부터 데이터를 복사 (동시에 origin 리모트 저장소를 생성)
+- git add [파일이름] [옵션] : 파일을 staging area(준비 영역)에 추가
+  - 옵션: -A, --all 변경된 모든 파일 추가
+- [ ] git commit [옵션] : stage에 추가된 파일 목록을 커밋함.
+  -옵션:
+   - -m [메세지] : 커밋 메세지와 함께 커밋
+   - -a : 자동으로 add를 진행한 후 커밋
+   - -v : 커밋 메세지에 diff의 내용 포함
+- [ ] git push : 현재 브랜치 내용을 저장소에 업데이트
